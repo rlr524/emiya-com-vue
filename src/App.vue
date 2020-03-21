@@ -1,17 +1,19 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <Navbar />
-  </div>
+    <div id="app">
+      <Navbar />
+      <Main />
+    </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
 export default {
   name: "App",
   components: {
-    Navbar
+    Navbar,
+    Main
   }
 };
 </script>
@@ -23,6 +25,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1400px;
 }
 </style>
