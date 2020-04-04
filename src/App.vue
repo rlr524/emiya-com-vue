@@ -1,8 +1,8 @@
 <template>
-    <div id="app">
-      <Navbar />
-      <Main />
-    </div>
+  <div id="app">
+    <Navbar />
+    <Main />
+  </div>
 </template>
 
 <script>
@@ -13,8 +13,8 @@ export default {
   name: "App",
   components: {
     Navbar,
-    Main
-  }
+    Main,
+  },
 };
 </script>
 
@@ -27,6 +27,6 @@ export default {
   color: #2c3e50;
   margin: 0 auto;
   width: 80%;
-  max-width: 1400px;
+  max-width: 1140px;
 }
 </style>
