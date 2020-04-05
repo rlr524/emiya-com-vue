@@ -1,6 +1,10 @@
 <template>
   <header>
     <img src="../assets/ec_new_logo_tags_small.svg" alt="" />
+    <div class="nav-right">
+      <p><a href="/pricing">Pricing</a></p>
+      <p><a href="/contact">Contact</a></p>
+    </div>
   </header>
 </template>
 
@@ -22,6 +26,23 @@ header {
   margin-bottom: 0.5rem;
 }
 img {
-  width: 20%;
+  width: 16%;
+}
+
+header a {
+  color: #333333;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.nav-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 </style>

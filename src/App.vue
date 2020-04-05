@@ -28,6 +28,6 @@ export default {
   color: #2c3e50;
   margin: auto;
   width: 80%;
-  max-width: 1140px;
+  max-width: 1600px;
 }
 </style>
