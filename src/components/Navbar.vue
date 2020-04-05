@@ -19,6 +19,7 @@ header {
   opacity: 0.9;
   padding-top: 1rem;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 img {
   width: 20%;
