@@ -21,9 +21,9 @@ header {
   justify-content: space-between;
   z-index: 1;
   opacity: 0.9;
-  padding-top: 1rem;
+  padding-top: 1em;
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 img {
   width: 16%;
@@ -31,8 +31,8 @@ img {
 
 header a {
   color: #333333;
-  padding: 0.45rem;
-  margin: 0 0.25rem;
+  padding: 0.45em;
+  margin: 0 0.25em;
   text-decoration: none;
 }
 
@@ -44,5 +44,15 @@ header a:hover {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 44%;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
 }
 </style>

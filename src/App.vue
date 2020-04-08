@@ -24,6 +24,7 @@ export default {
 <style>
 #app {
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

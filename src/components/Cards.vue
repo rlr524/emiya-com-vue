@@ -17,10 +17,16 @@ export default {
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  height: 10rem;
+  gap: 1em;
+  height: 10em;
 }
 .card {
   background-color: #e5dfdf;
+}
+
+@media (max-width: 768px) {
+  .card {
+    font-size: 0.7em;
+  }
 }
 </style>
