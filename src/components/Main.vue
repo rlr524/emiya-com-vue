@@ -1,12 +1,14 @@
 <template>
   <div class="main-top">
-    <h1>Keep your mind on your business while we mind your code</h1>
+    <p class="font-sans text-3xl w-2/5">
+      Keep your mind on your business while we mind your code
+    </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Main",
+  name: "Main"
 };
 </script>
 

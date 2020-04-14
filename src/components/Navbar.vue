@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "Navbar",
+  name: "Navbar"
 };
 </script>
 
@@ -26,7 +26,7 @@ header {
   margin-bottom: 0.5em;
 }
 img {
-  width: 16%;
+  width: 20%;
 }
 
 header a {
