@@ -25,9 +25,6 @@ header {
   text-align: center;
   margin-bottom: 0.5em;
 }
-img {
-  width: 20%;
-}
 
 header a {
   color: #333333;
@@ -38,6 +35,10 @@ header a {
 
 header a:hover {
   text-decoration: underline;
+}
+
+img {
+  width: 20em;
 }
 
 .nav-right {
