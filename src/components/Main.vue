@@ -1,7 +1,15 @@
 <template>
   <div class="main-top">
-    <p class="font-sans text-3xl w-2/5">
-      Keep your mind on your business while we mind your code
+    <p
+      class="font-sans sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl font-bold ml-8 -mind"
+    >
+      You mind your business We'll mind your tech
+    </p>
+    <p
+      class="font-sans sm:text-xs md:text-xs lg:text-xs xl:text-base ml-8 mt-2 -let"
+    >
+      You're not in business to write code. Let us build and manage your web and
+      mobile app presence
     </p>
   </div>
 </template>
@@ -22,20 +30,14 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  padding-top: 9em;
+  padding-top: 4em;
   padding-bottom: 3.125em;
   margin-bottom: 1.25em;
 }
-
-.main-top h1 {
-  width: 35%;
-  margin-left: 1em;
-  margin-bottom: 1em;
+.-mind {
+  width: 28%;
 }
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 1.1em;
-  }
+.-let {
+  width: 28%;
 }
 </style>

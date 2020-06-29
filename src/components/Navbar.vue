@@ -2,7 +2,6 @@
   <header>
     <img src="../assets/ec_new_logo_tags_small.svg" alt="" />
     <div class="nav-right">
-      <p><a href="/pricing">Pricing</a></p>
       <p><a href="/contact">Contact</a></p>
     </div>
   </header>
