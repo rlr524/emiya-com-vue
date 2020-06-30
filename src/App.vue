@@ -3,7 +3,7 @@
     <Navbar />
     <Main />
     <Cards />
-    <Portfolio />
+    <Port />
     <Engage />
     <Footer />
   </div>
@@ -13,7 +13,7 @@
 import Navbar from "@/components/Navbar";
 import Main from "@/components/Main";
 import Cards from "@/components/Cards";
-import Portfolio from "@/components/Portfolio";
+import Port from "@/components/Port";
 import Engage from "@/components/Engage";
 import Footer from "@/components/Footer";
 
@@ -23,7 +23,7 @@ export default {
     Navbar,
     Main,
     Cards,
-    Portfolio,
+    Port,
     Engage,
     Footer
   }

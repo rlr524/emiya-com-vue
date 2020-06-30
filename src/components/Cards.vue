@@ -1,7 +1,7 @@
 <template>
   <div class="card-container text-center">
-    <div class="max-w-m rounded overflow-hidden shadow-lg">
-      <p class="font-sans text-xl font-bold mb-2">
+    <div class="max-w-m rounded overflow-hidden shadow-lg bg-gray-100 pt-4">
+      <p class="font-sans text-xl font-bold">
         Why Emiya Consulting
       </p>
       <ul class="-card-text">
@@ -19,13 +19,14 @@
         </li>
       </ul>
     </div>
-    <div class="max-w-m rounded overflow-hidden shadow-lg">
-      <p class="font-sans text-xl font-bold mb-2">
+    <div class="max-w-m rounded overflow-hidden shadow-lg bg-gray-100 pt-4">
+      <p class="font-sans text-xl font-bold">
         Web Design and Development
       </p>
       <ul class="-card-text">
         <li class="-card-item">
-          Responsive, accessible static websites as well as dynamic web apps
+          Responsive, accessible static websites as well as dynamic web apps and
+          Electron desktop apps
         </li>
         <li class="-card-item">
           Modern front-end frameworks and libraries including Vue.js, React.js,
@@ -41,8 +42,8 @@
         </li>
       </ul>
     </div>
-    <div class="max-w-m rounded overflow-hidden shadow-lg">
-      <p class="font-sans text-xl font-bold mb-2">
+    <div class="max-w-m rounded overflow-hidden shadow-lg bg-gray-100 pt-4">
+      <p class="font-sans text-xl font-bold">
         Mobile iOS App Development
       </p>
       <ul class="-card-text">
@@ -79,7 +80,7 @@ export default {
   gap: 1em;
   height: 23em;
   z-index: 10;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2em;
 }
 .-card-text {
   padding: 0 4rem;

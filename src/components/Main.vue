@@ -32,7 +32,7 @@ export default {
   text-align: left;
   padding-top: 4em;
   padding-bottom: 3.125em;
-  margin-bottom: 1.25em;
+  margin-bottom: 2em;
 }
 .-mind {
   width: 28%;
