@@ -33,7 +33,7 @@
           Bootstrap and Tailwind
         </li>
         <li class="-card-item">
-          Security and disaster recovery at every step
+          Security, SEO, and disaster recovery at every step
         </li>
         <li>
           Back-end APIs / web services and databases using Node.js or Go,
