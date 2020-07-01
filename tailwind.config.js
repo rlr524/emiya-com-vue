@@ -5,8 +5,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        "Helvetica",
-        "Arial",
+        "Noto Sans JP",
         "sans-serif",
         "system-ui",
         "-apple-system",
@@ -21,6 +20,11 @@ module.exports = {
         '"Courier New"',
         "monospace"
       ]
+    },
+    colors: {
+      emiyablue: "#1E44A9",
+      emiyagold: "#FBD77B",
+      emiyablack: "#414141"
     }
   }
 };

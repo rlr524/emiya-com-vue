@@ -2,14 +2,18 @@
   <div id="app">
     <Navbar />
     <Main />
+    <Rule />
     <Cards />
+    <Rule />
     <Port />
+    <Rule />
     <Engage />
     <Footer />
   </div>
 </template>
 
 <script>
+import Rule from "@/utilities/Rule";
 import Navbar from "@/components/Navbar";
 import Main from "@/components/Main";
 import Cards from "@/components/Cards";
@@ -22,6 +26,7 @@ export default {
   components: {
     Navbar,
     Main,
+    Rule,
     Cards,
     Port,
     Engage,
@@ -32,12 +37,8 @@ export default {
 
 <style>
 #app {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
   margin: auto;
   width: 80%;
   max-width: 1600px;

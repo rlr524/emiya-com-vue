@@ -2,7 +2,7 @@
   <header>
     <img src="../assets/ec_new_logo_tags_small.svg" alt="" />
     <div class="nav-right">
-      <p><a href="/contact">Contact</a></p>
+      <p class="text-emiyablack mr-1"><a href="/contact">Contact</a></p>
     </div>
   </header>
 </template>
@@ -23,13 +23,6 @@ header {
   padding-top: 1em;
   text-align: center;
   margin-bottom: 0.5em;
-}
-
-header a {
-  color: #333333;
-  padding: 0.45em;
-  margin: 0 0.25em;
-  text-decoration: none;
 }
 
 header a:hover {

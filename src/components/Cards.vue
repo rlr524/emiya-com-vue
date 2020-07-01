@@ -1,7 +1,7 @@
 <template>
-  <div class="card-container text-center">
-    <div class="max-w-m rounded overflow-hidden shadow-lg bg-gray-100 pt-4">
-      <p class="font-sans text-xl font-bold">
+  <div class="card-container text-center text-emiyablack">
+    <div class="max-w-m rounded overflow-hidden shadow-lg pt-4">
+      <p class="font-bold text-xl">
         Why Emiya Consulting
       </p>
       <ul class="-card-text">
@@ -19,21 +19,21 @@
         </li>
       </ul>
     </div>
-    <div class="max-w-m rounded overflow-hidden shadow-lg bg-gray-100 pt-4">
-      <p class="font-sans text-xl font-bold">
+    <div class="max-w-m rounded overflow-hidden shadow-lg pt-4">
+      <p class="font-bold text-xl">
         Web Design and Development
       </p>
       <ul class="-card-text">
         <li class="-card-item">
-          Responsive, accessible static websites as well as dynamic web apps and
-          Electron desktop apps
+          Responsive, accessible static websites as well as dynamic web apps,
+          SPAs, PWAs, and Electron desktop apps
         </li>
         <li class="-card-item">
           Modern front-end frameworks and libraries including Vue.js, React.js,
-          Bootstrap, Tailwind and more
+          Bootstrap and Tailwind
         </li>
         <li class="-card-item">
-          Security and disaster recovery built in at every step
+          Security and disaster recovery at every step
         </li>
         <li>
           Back-end APIs / web services and databases using Node.js or Go,
@@ -42,8 +42,8 @@
         </li>
       </ul>
     </div>
-    <div class="max-w-m rounded overflow-hidden shadow-lg bg-gray-100 pt-4">
-      <p class="font-sans text-xl font-bold">
+    <div class="max-w-m rounded overflow-hidden shadow-lg pt-4">
+      <p class="font-bold text-xl">
         Mobile iOS App Development
       </p>
       <ul class="-card-text">
@@ -78,8 +78,9 @@ export default {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1em;
-  height: 23em;
+  height: 25em;
   z-index: 10;
+  margin-top: 4em;
   margin-bottom: 2em;
 }
 .-card-text {

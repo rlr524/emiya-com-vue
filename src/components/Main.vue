@@ -1,12 +1,12 @@
 <template>
   <div class="main-top">
     <p
-      class="font-sans sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl font-bold ml-8 -mind"
+      class="sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl text-emiyablack font-bold ml-8 -mind"
     >
       You mind your business We'll mind your tech
     </p>
     <p
-      class="font-sans sm:text-xs md:text-xs lg:text-xs xl:text-base ml-8 mt-2 -let"
+      class="sm:text-xs md:text-xs lg:text-xs xl:text-base text-emiyablack ml-8 mt-2 -let"
     >
       You're not in business to write code. Let us build and manage your web and
       mobile app presence
@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .main-top {
-  background: url(../assets/Canva-WebApplicationDeveloperDesk.png) no-repeat
+  background: url(../assets/img/Canva-WebApplicationDeveloperDesk.png) no-repeat
     center center/cover;
   height: 25em;
   width: 100%;
