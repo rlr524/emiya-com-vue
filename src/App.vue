@@ -1,36 +1,17 @@
 <template>
   <div id="app">
     <Navbar />
-    <Main />
-    <Rule />
-    <Cards />
-    <Rule />
-    <Port />
-    <Rule />
-    <Engage />
-    <Footer />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Rule from "@/utilities/Rule";
 import Navbar from "@/components/Navbar";
-import Main from "@/components/Main";
-import Cards from "@/components/Cards";
-import Port from "@/components/Port";
-import Engage from "@/components/Engage";
-import Footer from "@/components/Footer";
 
 export default {
   name: "App",
   components: {
-    Navbar,
-    Main,
-    Rule,
-    Cards,
-    Port,
-    Engage,
-    Footer
+    Navbar
   }
 };
 </script>

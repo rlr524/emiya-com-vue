@@ -12,13 +12,14 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "css": "^2.2.4",
-    "lodash": "^4.17.15",
     "tailwind": "^4.0.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "^4.4.6",
     "@vue/cli-service": "~4.2.0",
     "autoprefixer": "^9.7.6",
     "babel-eslint": "^10.0.3",

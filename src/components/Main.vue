@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .main-top {
-  background: url(../assets/img/Canva-WebApplicationDeveloperDesk.png) no-repeat
+  background: url(../assets/img/Canva-WebApplicationDeveloperDesk.svg) no-repeat
     center center/cover;
   height: 25em;
   width: 100%;

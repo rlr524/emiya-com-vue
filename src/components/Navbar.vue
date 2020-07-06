@@ -1,9 +1,19 @@
 <template>
   <header>
-    <img src="../assets/ec_new_logo_tags_small.svg" alt="" />
-    <div class="nav-right">
-      <p class="text-emiyablack mr-1"><a href="/contact">Contact</a></p>
-    </div>
+    <router-link to="/">
+      <img src="../assets/ec_new_logo_tags_small.svg" alt="" />
+    </router-link>
+    <nav class="nav-right">
+      <router-link class="text-emiyablack mr-4" to="/cv">
+        C.V.
+      </router-link>
+      <router-link class="text-emiyablack mr-4" to="/pricing">
+        Price
+      </router-link>
+      <router-link class="text-emiyablack mr-4" to="/contact">
+        Contact
+      </router-link>
+    </nav>
   </header>
 </template>
 
