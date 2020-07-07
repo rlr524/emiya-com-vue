@@ -1,12 +1,12 @@
 <template>
   <div class="main-top">
     <p
-      class="sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl text-emiyablack font-bold ml-8 -mind"
+      class="text-xs sm:text-sm md:text-xl lg:text-3xl xl:text-4xl w-1/3 sm:w-1/3 md:w-5/12 lg:w-1/3 text-emiyablack font-bold ml-8 -mind"
     >
       You mind your business We'll mind your tech
     </p>
     <p
-      class="sm:text-xs md:text-xs lg:text-xs xl:text-base text-emiyablack ml-8 mt-2 -let"
+      class="text-xs sm:text-sm md:text-base lg:text-sm xl:text-base w-1/3 sm:w-1/3 md:w-5/12 lg:w-1/3 text-emiyablack ml-8 mt-2 -let"
     >
       You're not in business to write code. Let us build and manage your web and
       mobile app presence
@@ -33,11 +33,5 @@ export default {
   padding-top: 4em;
   padding-bottom: 3.125em;
   margin-bottom: 2em;
-}
-.-mind {
-  width: 28%;
-}
-.-let {
-  width: 28%;
 }
 </style>

@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <h1>Contact. This is the contact component.</h1>
+  <div class="mx-32 my-32">
+    <h1>
+      Contact us at
+      <a href="mailto:rob@emiyaconsulting.com">rob@emiyaconsulting.com</a>
+      or use the contact form below.
+    </h1>
   </div>
 </template>
 

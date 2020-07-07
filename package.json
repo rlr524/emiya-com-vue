@@ -6,8 +6,8 @@
     "serve": "npm run watch:css && vue-cli-service serve",
     "build": "npm run build:css && vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
-    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+    "build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
+    "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css"
   },
   "dependencies": {
     "core-js": "^3.6.4",

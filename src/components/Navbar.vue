@@ -1,18 +1,27 @@
 <template>
   <header>
     <router-link to="/">
-      <img src="../assets/ec_new_logo_tags_small.svg" alt="" />
+      <img
+        class="sm:w-full sm:h-auto"
+        src="../assets/ec_new_logo_tags_small.svg"
+        alt=""
+      />
     </router-link>
     <nav class="nav-right">
       <router-link class="text-emiyablack mr-4" to="/cv">
         C.V.
       </router-link>
       <router-link class="text-emiyablack mr-4" to="/pricing">
-        Price
+        Pricing
       </router-link>
-      <router-link class="text-emiyablack mr-4" to="/contact">
+      <a
+        class="text-emiyablack mr-4"
+        target="_blank"
+        rel="noreferrer"
+        href="mailto:rob@emiyaconsulting.com"
+      >
         Contact
-      </router-link>
+      </a>
     </nav>
   </header>
 </template>
@@ -37,10 +46,6 @@ header {
 
 header a:hover {
   text-decoration: underline;
-}
-
-img {
-  width: 20em;
 }
 
 .nav-right {
