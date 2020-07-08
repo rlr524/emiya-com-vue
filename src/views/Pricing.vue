@@ -34,7 +34,7 @@
       <h1 class="md:text-3xl sm:text-lg font-bold text-emiyablack">
         Tech consulting services
       </h1>
-      <p class="mt-4 md:text-l sm:text-xs">
+      <p class="mt-4 md:text-l sm:text-sm">
         General tech consulting services (network and cloud strategies, general
         tech strategies, analytics strategies and implementation, vendor
         selection) are charged at $110/hr. All projects will be scoped prior to
@@ -45,7 +45,7 @@
       <h1 class="md:text-3xl sm:text-lg font-bold text-emiyablack">
         Contracts
       </h1>
-      <p class="mt-4 md:text-l sm:text-xs">
+      <p class="mt-4 md:text-l sm:text-sm">
         Our initial statement of work (SOW) agreements bind both parties to
         non-disclosure regarding confidential information, state estimated
         project time and price, describe hosting and support deliverables and
