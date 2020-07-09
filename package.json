@@ -10,6 +10,8 @@
     "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.4",
     "css": "^2.2.4",
     "tailwind": "^4.0.0",

@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header id="header">
     <router-link to="/">
       <img
         class="sm:w-full sm:h-auto"
@@ -8,20 +8,10 @@
       />
     </router-link>
     <nav class="nav-right">
-      <router-link class="text-emiyablack mr-4" to="/cv">
-        C.V.
-      </router-link>
-      <router-link class="text-emiyablack mr-4" to="/pricing">
-        Pricing
-      </router-link>
-      <a
-        class="text-emiyablack mr-4"
-        target="_blank"
-        rel="noreferrer"
-        href="mailto:rob@emiyaconsulting.com"
-      >
-        Contact
-      </a>
+      <a href="#portfolio" class="text-emiyablack mr-4">Portfolio</a>
+      <a href="#cv" class="text-emiyablack mr-4">C.V.</a>
+      <a href="#pricing" class="text-emiyablack mr-4">Pricing</a>
+      <a href="#contact" class="text-emiyablack mr-4">Contact</a>
     </nav>
   </header>
 </template>

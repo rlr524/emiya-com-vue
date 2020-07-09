@@ -1,5 +1,6 @@
 <template>
   <div
+    id="portfolio"
     class="portfolio-container flex flex-wrap h-auto mt-8 mb-8 text-center text-emiyablack"
   >
     <div class="lg:w-1/3 sm:w-full pt-4 pb-4 flex items-center justify-center">
