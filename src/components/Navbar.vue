@@ -1,5 +1,5 @@
 <template>
-  <header id="header">
+  <nav id="navbar">
     <router-link to="/">
       <img
         class="sm:w-full sm:h-auto"
@@ -13,17 +13,18 @@
       <a href="#pricing" class="text-emiyablack mr-4">Pricing</a>
       <a href="#contact" class="text-emiyablack mr-4">Contact</a>
     </nav>
-  </header>
+  </nav>
 </template>
 
 <script>
 export default {
-  name: "Navbar"
+  name: "Navbar",
+  components: {}
 };
 </script>
 
 <style scoped>
-header {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,7 +35,7 @@ header {
   margin-bottom: 0.5em;
 }
 
-header a:hover {
+nav a:hover {
   text-decoration: underline;
 }
 
