@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <Main />
     <Rule />
     <Cards />
@@ -11,7 +11,6 @@
     <Cv />
     <Rule />
     <Contact />
-    <Footer />
   </div>
 </template>
 
@@ -23,7 +22,6 @@ import Port from "@/components/Port";
 import Pricing from "@/components/Pricing";
 import Cv from "@/components/Cv";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 
 export default {
   name: "Home",
@@ -34,8 +32,7 @@ export default {
     Port,
     Pricing,
     Cv,
-    Contact,
-    Footer
+    Contact
   }
 };
 </script>
