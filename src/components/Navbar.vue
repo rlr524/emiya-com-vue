@@ -1,12 +1,14 @@
 <template>
   <nav id="navbar">
-    <router-link to="/">
-      <img
-        class="sm:w-full sm:h-auto"
-        src="../assets/ec_new_logo_tags_small.svg"
-        alt=""
-      />
-    </router-link>
+    <div class="logo">
+      <router-link to="/">
+        <img
+          class="w-full h-auto"
+          src="../assets/ec_new_logo_tags_small.svg"
+          alt=""
+        />
+      </router-link>
+    </div>
     <nav class="nav-right">
       <a href="#portfolio" class="text-emiyablack mr-4">Portfolio</a>
       <a href="#cv" class="text-emiyablack mr-4">C.V.</a>
@@ -45,9 +47,13 @@ nav a:hover {
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
-  img {
-    width: 44%;
+@media (max-width: 800px) {
+  nav {
+    display: block;
+  }
+
+  .nav-right {
+    display: inline;
   }
 
   p {

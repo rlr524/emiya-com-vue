@@ -3,7 +3,7 @@
     class="card-container flex flex-wrap h-auto mt-8 mb-8 text-center text-emiyablack"
   >
     <div
-      class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow-lg pt-4 pb-4"
+      class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow hover:shadow-lg pt-4 pb-4"
     >
       <p class="font-bold text-xl mb-4">
         Why Emiya Consulting
@@ -29,7 +29,7 @@
       </ul>
     </div>
     <div
-      class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow-lg pt-4 pb-4"
+      class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow hover:shadow-lg pt-4 pb-4"
     >
       <p class="font-bold text-xl mb-4">
         Web Design and Development
@@ -37,7 +37,7 @@
       <ul class="pl-16 pr-16">
         <li class="mb-4 pb-4 border-b border-solid border-gray-100">
           Responsive, accessible static websites as well as dynamic web apps,
-          Single Page Apps, Progressive Web Apps, and Electron desktop apps
+          Single Page Apps, and Electron desktop apps
         </li>
         <li class="mb-4 pb-4 border-b border-solid border-gray-100">
           Modern front-end frameworks and libraries including Vue.js, React.js,
@@ -55,7 +55,7 @@
       </ul>
     </div>
     <div
-      class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow-lg pt-4 pb-4"
+      class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow hover:shadow-lg pt-4 pb-4"
     >
       <p class="font-bold text-xl mb-4">
         Mobile iOS App Development
