@@ -33,6 +33,19 @@ export default {
     Pricing,
     Cv,
     Contact
+  },
+  metaInfo() {
+    return {
+      title:
+        "Emiya Consulting - Web design and development, mobile app development, and small business technology consulting in the Puget Sound (Seattle, Bellevue, Tacoma) area.",
+      meta: [
+        {
+          name: "Emiya Consulting",
+          content:
+            "Web design and development, mobile app development, and small business technology consulting in the Puget Sound (Seattle, Bellevue, Tacoma) area."
+        }
+      ]
+    };
   }
 };
 </script>
