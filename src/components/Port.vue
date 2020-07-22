@@ -1,5 +1,5 @@
 <template>
-  <div id="portfolio" class="mx-16 my-16">
+  <div id="portfolio" class="mx-32 my-32">
     Portfolio coming soon! Emiya Consulting is not currently accepting clients.
     <!-- <div
       class="lg:w-1/2 sm:w-full mx-4 pt-4 pb-4 flex items-center justify-center"

@@ -1,5 +1,5 @@
 <template>
-  <div id="pricing" class="mx-16 my-16">
+  <div id="pricing" class="mx-32 my-32">
     Price information coming soon! Emiya Consulting is not currently accepting
     clients.
   </div>

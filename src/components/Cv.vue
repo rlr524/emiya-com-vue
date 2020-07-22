@@ -1,5 +1,5 @@
 <template>
-  <div id="cv" class="mx-16 my-16">
+  <div id="cv" class="mx-32 my-32">
     CV coming soon! Emiya consulting is not currently accepting clients.
   </div>
 </template>
