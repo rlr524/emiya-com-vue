@@ -7,7 +7,9 @@
     "build": "npm run build:css && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
-    "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css"
+    "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
@@ -29,6 +31,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.5.1",
+    "vue-styleguidist": "^4.28.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
