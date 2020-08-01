@@ -20,12 +20,20 @@
       You're not in business to write code. Let us build and manage your web and
       mobile app presence
     </p>
+    <!-- <button id="get-data" @click="getClientData">Get Data</button> -->
   </div>
 </template>
 
 <script>
+import Clients from "../api/airtable";
+
 export default {
-  name: "Main"
+  name: "Main",
+  methods: {
+    getClientData: function() {
+      return Clients();
+    }
+  }
 };
 </script>
 

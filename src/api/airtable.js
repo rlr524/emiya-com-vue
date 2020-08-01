@@ -1,13 +1,14 @@
-require("dotenv").config();
 const Airtable = require("airtable");
 
 Airtable.configure({
   endpointURL: "https://api.airtable.com",
-  apiKey: process.env.AIRTABLE_API_KEY
+  apiKey: process.env.VUE_APP_AIRTABLE_API_KEY
 });
 
-const clients = () => {
-  let base = new Airtable.base("app2QSVu0tIIQirbK");
+const Clients = () => {
+  let base = new Airtable({
+    apiKey: process.env.VUE_APP_AIRTABLE_API_KEY
+  }).base("app2QSVu0tIIQirbK");
 
   base("Clients")
     .select({
@@ -36,4 +37,4 @@ const clients = () => {
     );
 };
 
-module.exports = clients;
+module.exports = Clients;
