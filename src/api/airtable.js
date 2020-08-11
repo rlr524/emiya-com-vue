@@ -1,3 +1,12 @@
+/**
+ * Airtable API hook for Emiya Consulting
+ *
+ * @version 0.1.0
+ * @author Rob Ranf
+ * @license Apache-2.0
+ *
+ */
+
 const Airtable = require("airtable");
 
 Airtable.configure({

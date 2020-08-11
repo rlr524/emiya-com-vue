@@ -59,7 +59,7 @@
     "url": "git+https://github.com/rlr524/emiya-com-vue.git"
   },
   "author": "Rob Ranf",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/rlr524/emiya-com-vue/issues"
   },

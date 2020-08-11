@@ -1,3 +1,13 @@
+/**
+ * Emiya Consulting LLC
+ * emiyaconsulting.com
+ *
+ * @version 1.1.0
+ * @author Rob Ranf
+ * @license Apache-2.0
+ *
+ */
+
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router.js";
