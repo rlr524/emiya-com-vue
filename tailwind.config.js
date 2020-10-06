@@ -5,6 +5,9 @@ module.exports = {
   important: false,
   separator: ":",
   purge: ["./src/**/*.vue"],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   theme: {
     extend: {
       fontFamily: {

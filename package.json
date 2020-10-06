@@ -13,26 +13,26 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
-    "airtable": "^0.8.1",
+    "airtable": "^0.9.0",
     "core-js": "^3.6.5",
     "css": "^3.0.0",
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vue-meta": "^2.4.0",
-    "vue-router": "^3.3.4"
+    "vue-router": "^3.4.3"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.4.6",
-    "@vue/cli-plugin-eslint": "~4.4.6",
-    "@vue/cli-plugin-router": "^4.4.6",
-    "@vue/cli-service": "~4.4.6",
+    "@vue/cli-plugin-babel": "~4.5.4",
+    "@vue/cli-plugin-eslint": "~4.5.4",
+    "@vue/cli-plugin-router": "^4.5.4",
+    "@vue/cli-service": "~4.5.4",
     "autoprefixer": "^9.8.6",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.6.0",
+    "eslint": "^7.7.0",
     "eslint-plugin-vue": "^6.2.2",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.6.0",
-    "vue-styleguidist": "^4.29.1",
-    "vue-template-compiler": "^2.6.11"
+    "tailwindcss": "^1.7.3",
+    "vue-styleguidist": "^4.31.1",
+    "vue-template-compiler": "^2.6.12"
   },
   "eslintConfig": {
     "root": true,
