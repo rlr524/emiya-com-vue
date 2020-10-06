@@ -3,14 +3,14 @@
     <Main />
     <Rule />
     <Cards />
-    <Rule />
+    <!-- <Rule />
     <Port />
     <Rule />
     <Pricing />
     <Rule />
     <Cv />
     <Rule />
-    <Contact />
+    <Contact /> -->
   </div>
 </template>
 
@@ -18,10 +18,10 @@
 import Rule from "@/utilities/Rule";
 import Main from "@/components/Main";
 import Cards from "@/components/Cards";
-import Port from "@/components/Port";
-import Pricing from "@/components/Pricing";
-import Cv from "@/components/Cv";
-import Contact from "@/components/Contact";
+// import Port from "@/components/Port";
+// import Pricing from "@/components/Pricing";
+// import Cv from "@/components/Cv";
+// import Contact from "@/components/Contact";
 
 export default {
   name: "Home",
@@ -29,10 +29,10 @@ export default {
     Rule,
     Main,
     Cards,
-    Port,
-    Pricing,
-    Cv,
-    Contact
+    // Port,
+    // Pricing,
+    // Cv,
+    // Contact
   },
   metaInfo() {
     return {
@@ -42,11 +42,11 @@ export default {
         {
           name: "Emiya Consulting",
           content:
-            "Web design and development, mobile app development, and small business technology consulting in the Puget Sound (Seattle, Bellevue, Tacoma) area."
-        }
-      ]
+            "Web design and development, mobile app development, and small business technology consulting in the Puget Sound (Seattle, Bellevue, Tacoma) area.",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

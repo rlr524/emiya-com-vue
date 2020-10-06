@@ -10,10 +10,12 @@
       </router-link>
     </div>
     <nav class="nav-right">
-      <a href="#portfolio" class="text-emiyablack mr-4">Portfolio</a>
+      <!-- <a href="#portfolio" class="text-emiyablack mr-4">Portfolio</a>
       <a href="#cv" class="text-emiyablack mr-4">C.V.</a>
-      <a href="#pricing" class="text-emiyablack mr-4">Pricing</a>
-      <a href="#contact" class="text-emiyablack mr-4">Contact</a>
+      <a href="#pricing" class="text-emiyablack mr-4">Pricing</a> -->
+      <a href="mailto:rob@emiyaconsulting.com" class="text-emiyablack mr-4">
+        Contact
+      </a>
     </nav>
   </nav>
 </template>
@@ -21,7 +23,7 @@
 <script>
 export default {
   name: "Navbar",
-  components: {}
+  components: {},
 };
 </script>
 
