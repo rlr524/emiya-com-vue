@@ -1,125 +1,155 @@
 <template>
-  <div id="contact" class="mx-16 my-16">
-    <div class="alert hidden">Thank you! Your message has been sent.</div>
-    <div class="alert-error hidden">
-      We're sorry, there has been an error submitting your message. You can
-      email us direct at
-      <a href="mailto:rob@emiyaconsulting.com" target="blank" rel="noreferrer">
-        rob@emiyaconsulting.com
-      </a>
+  <div id="about" class="flex mx-16 my-16">
+    <div class="w-2/3 mr-8">
+      <p>
+        This is a bunch of text. This is a bunch of text. This is more text. And
+        more. A bunch more. This is a bunch of text. This is a bunch of text.
+        This is more text. And more. A bunch more. This is a bunch of text. This
+        is a bunch of text. This is more text. And more. A bunch more. This is a
+        bunch of text. This is a bunch of text. This is more text. And more. A
+        bunch more. This is a bunch of text. This is a bunch of text. This is
+        more text. And more. A bunch more. This is a bunch of text. This is a
+        bunch of text. This is more text. And more. A bunch more. This is a
+        bunch of text. This is a bunch of text. This is more text. And more. A
+        bunch more. This is a bunch of text. This is a bunch of text. This is
+        more text. And more. A bunch more. This is a bunch of text. This is a
+        bunch of text. This is more text. And more. A bunch more. This is a
+        bunch of text. This is a bunch of text. This is more text. And more. A
+        bunch more. This is a bunch of text. This is a bunch of text. This is
+        more text. And more. A bunch more. This is a bunch of text. This is a
+        bunch of text. This is more text. And more. A bunch more. This is a
+        bunch of text. This is a bunch of text. This is more text. And more. A
+        bunch more. This is a bunch of text. This is a bunch of text. This is
+        more text. And more. A bunch more. This is a bunch of text. This is a
+        bunch of text. This is more text. And more. A bunch more. This is a
+        bunch of text. This is a bunch of text. This is more text. And more. A
+        bunch more. This is a bunch of text. This is a bunch of text. This is
+        more text. And more. A bunch more. This is a bunch of text. This is a
+        bunch of text. This is more text. And more. A bunch more. This is a
+        bunch of text. This is a bunch of text. This is more text. And more. A
+        bunch more. This is a bunch of text. This is a bunch of text. This is
+        more text. And more. A bunch more.
+      </p>
     </div>
-    <form class="w-full max-w-lg" id="contact-form" action="" method="post">
-      <div class="flex wrap -mx-3 mb-6">
+    <form class="w-1/3 max-w-lg" id="contact" action="" method="post">
+      <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="name"
+            for="grid-first-name"
           >
-            Full Name
+            First Name
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+            id="grid-first-name"
             type="text"
-            name="name"
-            id="name"
-            required
+            placeholder="Jane"
           />
-          <p class="text-red-500 text-xs italic">
-            Please fill out this field.
-          </p>
+          <p class="text-red-500 text-xs italic">Please fill out this field.</p>
         </div>
         <div class="w-full md:w-1/2 px-3">
           <label
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="company"
+            for="grid-last-name"
           >
-            Company
+            Last Name
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            id="grid-last-name"
             type="text"
-            name="company"
-            id="company"
+            placeholder="Doe"
           />
         </div>
-        <div class="flex flex-wrap -mx-3 mb-6">
-          <div class="w-full px-3">
-            <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="email"
-            >
-              Email address
-            </label>
-            <input
-              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-              type="email"
-              name="email"
-              id="email"
-              required
-            />
-          </div>
-        </div>
-        <div class="flex flex-wrap -mx-3 mb-6">
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full px-3">
           <label
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="phone"
+            for="grid-password"
           >
-            Business Phone Number
+            Password
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-            type="tel"
-            name="phone"
-            id="phone"
+            id="grid-password"
+            type="password"
+            placeholder="******************"
           />
+          <p class="text-gray-600 text-xs italic">
+            Make it as long and as crazy as you'd like
+          </p>
         </div>
-        <div class="flex flex-wrap -mx-3 mb-6">
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-2">
+        <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
           <label
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="message"
+            for="grid-city"
           >
-            Message
+            City
           </label>
-          <textarea
-            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+          <input
+            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            id="grid-city"
             type="text"
-            name="message"
-            id="message"
-            rows="5"
-          ></textarea>
+            placeholder="Albuquerque"
+          />
+        </div>
+        <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="grid-state"
+          >
+            State
+          </label>
+          <div class="relative">
+            <select
+              class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-state"
+            >
+              <option>New Mexico</option>
+              <option>Missouri</option>
+              <option>Texas</option>
+            </select>
+            <div
+              class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+            >
+              <svg
+                class="fill-current h-4 w-4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="grid-zip"
+          >
+            Zip
+          </label>
+          <input
+            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            id="grid-zip"
+            type="text"
+            placeholder="90210"
+          />
         </div>
       </div>
-      <div class="btn">
-        <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          type="submit"
-        >
-          Submit
-        </button>
-      </div>
     </form>
-    Emiya Consulting is not currently accepting clients.
-    <address>
-      <p>
-        <br />
-        <a href="mailto:admin@emiyaconsulting.com">admin@emiyaconsulting.com</a>
-        <br />
-        <a href="tel:+14252725745">(425) 272-5745</a>
-        <br />
-        Emiya Consulting LLC
-        <br />
-        PO Box 498
-        <br />
-        Issaquah, WA 98027
-        <br />
-      </p>
-    </address>
   </div>
 </template>
 <script>
 export default {
   name: "Contact",
-  components: {}
+  components: {},
 };
 </script>
 
