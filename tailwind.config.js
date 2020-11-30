@@ -27,6 +27,9 @@ module.exports = {
       emiyablue: "#1E44A9",
       emiyagold: "#FBD77B",
       emiyablack: "#414141"
-    }
+    },
+    plugins: [
+      require("@tailwindcss/forms"),
+    ]
   }
 };
