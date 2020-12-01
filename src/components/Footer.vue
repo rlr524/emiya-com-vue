@@ -8,7 +8,7 @@
       <span>(425) 272-5745</span>
       <span class="separator">|</span>
       <span>
-        <a href="mailto:admin@emiyaconsulting.com">admin@emiyaconsulting.com</a>
+        <a href="mailto:rob@emiyaconsulting.com">rob@emiyaconsulting.com</a>
       </span>
     </p>
   </div>
