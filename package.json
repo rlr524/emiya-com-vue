@@ -13,41 +13,24 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
-    "airtable": "^0.10.0",
     "core-js": "^3.6.5",
     "css": "^3.0.0",
-    "postcss": "^7.0.35",
+    "postcss": "^8.0.0",
     "vue": "^2.6.12",
     "vue-meta": "^2.4.0",
     "vue-router": "^3.4.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.10",
-    "@vue/cli-plugin-eslint": "~4.5.10",
     "@vue/cli-plugin-router": "^4.5.10",
     "@vue/cli-service": "~4.5.10",
     "autoprefixer": "^9.8.6",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.10.0",
-    "eslint-plugin-vue": "^7.0.1",
+    "eslint": "^7.18.0",
+    "eslint-plugin-vue": "^7.4.1",
     "postcss-cli": "^8.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "vue-styleguidist": "^4.32.4",
     "vue-template-compiler": "^2.6.12"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
   },
   "browserslist": [
     "> 1%",

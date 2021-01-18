@@ -25,15 +25,9 @@
 </template>
 
 <script>
-import Clients from "../api/airtable";
-
 export default {
   name: "Main",
-  methods: {
-    getClientData: function() {
-      return Clients();
-    }
-  }
+  methods: {},
 };
 </script>
 

@@ -21,7 +21,6 @@ import Cards from "@/components/Cards";
 // import Port from "@/components/Port";
 // import Pricing from "@/components/Pricing";
 // import Cv from "@/components/Cv";
-// import Contact from "@/components/Contact";
 
 export default {
   name: "Home",
@@ -32,7 +31,6 @@ export default {
     // Port,
     // Pricing,
     // Cv,
-    // Contact
   },
   metaInfo() {
     return {
