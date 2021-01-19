@@ -14,7 +14,7 @@
       <a href="#cv" class="text-emiyablack mr-4">C.V.</a> -->
       <!-- <a href="#pricing" class="text-emiyablack mr-4">Pricing</a> -->
       <a href="#about" class="text-emiyablack mr-4">About</a>
-      <a href="#contact" class="text-emiyablack mr-4">Contact</a>
+      <a href="#contact-form" class="text-emiyablack mr-4">Contact</a>
     </nav>
   </nav>
 </template>

@@ -14,7 +14,6 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
     "@tailwindcss/forms": "^0.2.1",
-    "airtable": "^0.9.0",
     "core-js": "^3.6.5",
     "css": "^3.0.0",
     "postcss": "^7.0.35",
@@ -30,7 +29,7 @@
     "autoprefixer": "^9.8.6",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.7.0",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "^7.4.1",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "vue-styleguidist": "^4.31.1",
