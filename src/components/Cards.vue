@@ -5,12 +5,11 @@
     <div
       class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow hover:shadow-lg pt-4 pb-4"
     >
-      <p class="font-bold text-xl mb-4">
-        Why Emiya Consulting
-      </p>
+      <p class="font-bold text-xl mb-4">Why Emiya Consulting</p>
       <ul class="pl-16 pr-16">
         <li class="mb-4 pb-4 border-b border-solid border-gray-100">
-          Services designed for your business, no one-size-fits-all solutions
+          Services designed for your small business or individual needs, no
+          one-size-fits-all solutions
         </li>
         <li class="mb-4 pb-4 border-b border-solid border-gray-100">
           End-to-end support: We manage design, development, deployment and
@@ -18,8 +17,8 @@
         </li>
         <li class="mb-4 pb-4 border-b border-solid border-gray-100">
           Simple: no overcomplicated, costly solutions and a range of additional
-          tech consulting services for small business including network, cloud
-          and BCP/DR strategies
+          tech consulting services for small business and individuals including
+          network, cloud, BCP/DR strategies, and general tech support
         </li>
         <li>
           Business experience: 25+ Years at an F500 corporation; you don't need
@@ -31,9 +30,7 @@
     <div
       class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow hover:shadow-lg pt-4 pb-4"
     >
-      <p class="font-bold text-xl mb-4">
-        Web Design and Development
-      </p>
+      <p class="font-bold text-xl mb-4">Web Design and Development</p>
       <ul class="pl-16 pr-16">
         <li class="mb-4 pb-4 border-b border-solid border-gray-100">
           Responsive, accessible static websites as well as dynamic web apps,
@@ -57,9 +54,7 @@
     <div
       class="lg:w-1/3 sm:w-full max-w-m rounded overflow-hidden shadow hover:shadow-lg pt-4 pb-4"
     >
-      <p class="font-bold text-xl mb-4">
-        Mobile iOS App Development
-      </p>
+      <p class="font-bold text-xl mb-4">Mobile iOS App Development</p>
       <ul class="pl-16 pr-16">
         <li class="mb-4 pb-4 border-b border-solid border-gray-100">
           Apps built for iPhone and iPad using native development tools,
@@ -85,7 +80,7 @@
 
 <script>
 export default {
-  name: "Cards"
+  name: "Cards",
 };
 </script>
 
