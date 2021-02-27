@@ -1,52 +1,49 @@
 {
-  "name": "emiya-com-vue",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "npm run watch:css && vue-cli-service serve",
-    "build": "npm run build:css && vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
-    "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
-    "styleguide": "vue-styleguidist server",
-    "styleguide:build": "vue-styleguidist build"
-  },
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "^3.0.0",
-    "@tailwindcss/postcss7-compat": "^2.0.2",
-    "autoprefixer": "^9.8.6",
-    "core-js": "^3.6.5",
-    "css": "^3.0.0",
-    "postcss": "^7.0.35",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-    "vue": "^2.6.12",
-    "vue-meta": "^2.4.0",
-    "vue-router": "^3.4.5"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.10",
-    "@vue/cli-plugin-router": "^4.5.10",
-    "@vue/cli-service": "~4.5.10",
-    "eslint": "^7.18.0",
-    "eslint-plugin-vue": "^7.4.1",
-    "postcss-cli": "^7.0.35",
-    "vue-styleguidist": "^4.32.4",
-    "vue-template-compiler": "^2.6.12"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ],
-  "description": "## Project setup ``` npm install ```",
-  "main": "babel.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rlr524/emiya-com-vue.git"
-  },
-  "author": "Rob Ranf",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rlr524/emiya-com-vue/issues"
-  },
-  "homepage": "."
+	"name": "emiya-com-vue",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "npm run watch:css && vue-cli-service serve",
+		"build": "npm run build:css && vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
+		"watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css"
+	},
+	"dependencies": {
+		"@fullhuman/postcss-purgecss": "^3.0.0",
+		"@tailwindcss/postcss7-compat": "^2.0.2",
+		"autoprefixer": "^9.8.6",
+		"core-js": "^3.6.5",
+		"css": "^3.0.0",
+		"postcss": "^7.0.35",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+		"vue": "^2.6.12",
+		"vue-meta": "^2.4.0",
+		"vue-router": "^3.4.5"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.10",
+		"@vue/cli-plugin-router": "^4.5.10",
+		"@vue/cli-service": "~4.5.10",
+		"eslint": "^7.18.0",
+		"eslint-plugin-vue": "^7.4.1",
+		"postcss-cli": "^7.0.35",
+		"vue-template-compiler": "^2.6.12"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"description": "## Project setup ``` npm install ```",
+	"main": "babel.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rlr524/emiya-com-vue.git"
+	},
+	"author": "Rob Ranf",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rlr524/emiya-com-vue/issues"
+	},
+	"homepage": "."
 }

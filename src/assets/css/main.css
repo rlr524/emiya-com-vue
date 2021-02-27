@@ -1,3 +1,5 @@
+/*! tailwindcss v2.0.3 | MIT License | https://tailwindcss.com */
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -442,23 +444,28 @@ textarea {
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  opacity: 1;
   color: #a1a1aa;
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
   color: #a1a1aa;
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
   color: #a1a1aa;
 }
 
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  opacity: 1;
   color: #a1a1aa;
 }
 
 input::placeholder,
 textarea::placeholder {
+  opacity: 1;
   color: #a1a1aa;
 }
 
@@ -1521,23 +1528,23 @@ video {
   border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
 }
 
-.divide-solid > :not(template) ~ :not(template) {
+.divide-solid > :not([hidden]) ~ :not([hidden]) {
   border-style: solid;
 }
 
-.divide-dashed > :not(template) ~ :not(template) {
+.divide-dashed > :not([hidden]) ~ :not([hidden]) {
   border-style: dashed;
 }
 
-.divide-dotted > :not(template) ~ :not(template) {
+.divide-dotted > :not([hidden]) ~ :not([hidden]) {
   border-style: dotted;
 }
 
-.divide-double > :not(template) ~ :not(template) {
+.divide-double > :not([hidden]) ~ :not([hidden]) {
   border-style: double;
 }
 
-.divide-none > :not(template) ~ :not(template) {
+.divide-none > :not([hidden]) ~ :not([hidden]) {
   border-style: none;
 }
 
@@ -3208,6 +3215,10 @@ video {
 
 .cursor-move {
   cursor: move;
+}
+
+.cursor-help {
+  cursor: help;
 }
 
 .cursor-not-allowed {
@@ -8859,7 +8870,6 @@ video {
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -18501,23 +18511,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .sm\:divide-solid > :not(template) ~ :not(template) {
+  .sm\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
 
-  .sm\:divide-dashed > :not(template) ~ :not(template) {
+  .sm\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
     border-style: dashed;
   }
 
-  .sm\:divide-dotted > :not(template) ~ :not(template) {
+  .sm\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
     border-style: dotted;
   }
 
-  .sm\:divide-double > :not(template) ~ :not(template) {
+  .sm\:divide-double > :not([hidden]) ~ :not([hidden]) {
     border-style: double;
   }
 
-  .sm\:divide-none > :not(template) ~ :not(template) {
+  .sm\:divide-none > :not([hidden]) ~ :not([hidden]) {
     border-style: none;
   }
 
@@ -20188,6 +20198,10 @@ video {
 
   .sm\:cursor-move {
     cursor: move;
+  }
+
+  .sm\:cursor-help {
+    cursor: help;
   }
 
   .sm\:cursor-not-allowed {
@@ -25839,7 +25853,6 @@ video {
   }
 
   .sm\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -35395,23 +35408,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .md\:divide-solid > :not(template) ~ :not(template) {
+  .md\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
 
-  .md\:divide-dashed > :not(template) ~ :not(template) {
+  .md\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
     border-style: dashed;
   }
 
-  .md\:divide-dotted > :not(template) ~ :not(template) {
+  .md\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
     border-style: dotted;
   }
 
-  .md\:divide-double > :not(template) ~ :not(template) {
+  .md\:divide-double > :not([hidden]) ~ :not([hidden]) {
     border-style: double;
   }
 
-  .md\:divide-none > :not(template) ~ :not(template) {
+  .md\:divide-none > :not([hidden]) ~ :not([hidden]) {
     border-style: none;
   }
 
@@ -37082,6 +37095,10 @@ video {
 
   .md\:cursor-move {
     cursor: move;
+  }
+
+  .md\:cursor-help {
+    cursor: help;
   }
 
   .md\:cursor-not-allowed {
@@ -42733,7 +42750,6 @@ video {
   }
 
   .md\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -52289,23 +52305,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .lg\:divide-solid > :not(template) ~ :not(template) {
+  .lg\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
 
-  .lg\:divide-dashed > :not(template) ~ :not(template) {
+  .lg\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
     border-style: dashed;
   }
 
-  .lg\:divide-dotted > :not(template) ~ :not(template) {
+  .lg\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
     border-style: dotted;
   }
 
-  .lg\:divide-double > :not(template) ~ :not(template) {
+  .lg\:divide-double > :not([hidden]) ~ :not([hidden]) {
     border-style: double;
   }
 
-  .lg\:divide-none > :not(template) ~ :not(template) {
+  .lg\:divide-none > :not([hidden]) ~ :not([hidden]) {
     border-style: none;
   }
 
@@ -53976,6 +53992,10 @@ video {
 
   .lg\:cursor-move {
     cursor: move;
+  }
+
+  .lg\:cursor-help {
+    cursor: help;
   }
 
   .lg\:cursor-not-allowed {
@@ -59627,7 +59647,6 @@ video {
   }
 
   .lg\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -69183,23 +69202,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .xl\:divide-solid > :not(template) ~ :not(template) {
+  .xl\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
 
-  .xl\:divide-dashed > :not(template) ~ :not(template) {
+  .xl\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
     border-style: dashed;
   }
 
-  .xl\:divide-dotted > :not(template) ~ :not(template) {
+  .xl\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
     border-style: dotted;
   }
 
-  .xl\:divide-double > :not(template) ~ :not(template) {
+  .xl\:divide-double > :not([hidden]) ~ :not([hidden]) {
     border-style: double;
   }
 
-  .xl\:divide-none > :not(template) ~ :not(template) {
+  .xl\:divide-none > :not([hidden]) ~ :not([hidden]) {
     border-style: none;
   }
 
@@ -70870,6 +70889,10 @@ video {
 
   .xl\:cursor-move {
     cursor: move;
+  }
+
+  .xl\:cursor-help {
+    cursor: help;
   }
 
   .xl\:cursor-not-allowed {
@@ -76521,7 +76544,6 @@ video {
   }
 
   .xl\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -86077,23 +86099,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .\32xl\:divide-solid > :not(template) ~ :not(template) {
+  .\32xl\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
 
-  .\32xl\:divide-dashed > :not(template) ~ :not(template) {
+  .\32xl\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
     border-style: dashed;
   }
 
-  .\32xl\:divide-dotted > :not(template) ~ :not(template) {
+  .\32xl\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
     border-style: dotted;
   }
 
-  .\32xl\:divide-double > :not(template) ~ :not(template) {
+  .\32xl\:divide-double > :not([hidden]) ~ :not([hidden]) {
     border-style: double;
   }
 
-  .\32xl\:divide-none > :not(template) ~ :not(template) {
+  .\32xl\:divide-none > :not([hidden]) ~ :not([hidden]) {
     border-style: none;
   }
 
@@ -87764,6 +87786,10 @@ video {
 
   .\32xl\:cursor-move {
     cursor: move;
+  }
+
+  .\32xl\:cursor-help {
+    cursor: help;
   }
 
   .\32xl\:cursor-not-allowed {
@@ -93415,7 +93441,6 @@ video {
   }
 
   .\32xl\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
