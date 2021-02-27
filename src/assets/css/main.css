@@ -1521,23 +1521,23 @@ video {
   border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
 }
 
-.divide-solid > :not([hidden]) ~ :not([hidden]) {
+.divide-solid > :not(template) ~ :not(template) {
   border-style: solid;
 }
 
-.divide-dashed > :not([hidden]) ~ :not([hidden]) {
+.divide-dashed > :not(template) ~ :not(template) {
   border-style: dashed;
 }
 
-.divide-dotted > :not([hidden]) ~ :not([hidden]) {
+.divide-dotted > :not(template) ~ :not(template) {
   border-style: dotted;
 }
 
-.divide-double > :not([hidden]) ~ :not([hidden]) {
+.divide-double > :not(template) ~ :not(template) {
   border-style: double;
 }
 
-.divide-none > :not([hidden]) ~ :not([hidden]) {
+.divide-none > :not(template) ~ :not(template) {
   border-style: none;
 }
 
@@ -18501,23 +18501,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .sm\:divide-solid > :not([hidden]) ~ :not([hidden]) {
+  .sm\:divide-solid > :not(template) ~ :not(template) {
     border-style: solid;
   }
 
-  .sm\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
+  .sm\:divide-dashed > :not(template) ~ :not(template) {
     border-style: dashed;
   }
 
-  .sm\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
+  .sm\:divide-dotted > :not(template) ~ :not(template) {
     border-style: dotted;
   }
 
-  .sm\:divide-double > :not([hidden]) ~ :not([hidden]) {
+  .sm\:divide-double > :not(template) ~ :not(template) {
     border-style: double;
   }
 
-  .sm\:divide-none > :not([hidden]) ~ :not([hidden]) {
+  .sm\:divide-none > :not(template) ~ :not(template) {
     border-style: none;
   }
 
@@ -35395,23 +35395,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .md\:divide-solid > :not([hidden]) ~ :not([hidden]) {
+  .md\:divide-solid > :not(template) ~ :not(template) {
     border-style: solid;
   }
 
-  .md\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
+  .md\:divide-dashed > :not(template) ~ :not(template) {
     border-style: dashed;
   }
 
-  .md\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
+  .md\:divide-dotted > :not(template) ~ :not(template) {
     border-style: dotted;
   }
 
-  .md\:divide-double > :not([hidden]) ~ :not([hidden]) {
+  .md\:divide-double > :not(template) ~ :not(template) {
     border-style: double;
   }
 
-  .md\:divide-none > :not([hidden]) ~ :not([hidden]) {
+  .md\:divide-none > :not(template) ~ :not(template) {
     border-style: none;
   }
 
@@ -52289,23 +52289,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .lg\:divide-solid > :not([hidden]) ~ :not([hidden]) {
+  .lg\:divide-solid > :not(template) ~ :not(template) {
     border-style: solid;
   }
 
-  .lg\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
+  .lg\:divide-dashed > :not(template) ~ :not(template) {
     border-style: dashed;
   }
 
-  .lg\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
+  .lg\:divide-dotted > :not(template) ~ :not(template) {
     border-style: dotted;
   }
 
-  .lg\:divide-double > :not([hidden]) ~ :not([hidden]) {
+  .lg\:divide-double > :not(template) ~ :not(template) {
     border-style: double;
   }
 
-  .lg\:divide-none > :not([hidden]) ~ :not([hidden]) {
+  .lg\:divide-none > :not(template) ~ :not(template) {
     border-style: none;
   }
 
@@ -69183,23 +69183,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .xl\:divide-solid > :not([hidden]) ~ :not([hidden]) {
+  .xl\:divide-solid > :not(template) ~ :not(template) {
     border-style: solid;
   }
 
-  .xl\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
+  .xl\:divide-dashed > :not(template) ~ :not(template) {
     border-style: dashed;
   }
 
-  .xl\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
+  .xl\:divide-dotted > :not(template) ~ :not(template) {
     border-style: dotted;
   }
 
-  .xl\:divide-double > :not([hidden]) ~ :not([hidden]) {
+  .xl\:divide-double > :not(template) ~ :not(template) {
     border-style: double;
   }
 
-  .xl\:divide-none > :not([hidden]) ~ :not([hidden]) {
+  .xl\:divide-none > :not(template) ~ :not(template) {
     border-style: none;
   }
 
@@ -86077,23 +86077,23 @@ video {
     border-color: rgba(65, 65, 65, var(--tw-divide-opacity));
   }
 
-  .\32xl\:divide-solid > :not([hidden]) ~ :not([hidden]) {
+  .\32xl\:divide-solid > :not(template) ~ :not(template) {
     border-style: solid;
   }
 
-  .\32xl\:divide-dashed > :not([hidden]) ~ :not([hidden]) {
+  .\32xl\:divide-dashed > :not(template) ~ :not(template) {
     border-style: dashed;
   }
 
-  .\32xl\:divide-dotted > :not([hidden]) ~ :not([hidden]) {
+  .\32xl\:divide-dotted > :not(template) ~ :not(template) {
     border-style: dotted;
   }
 
-  .\32xl\:divide-double > :not([hidden]) ~ :not([hidden]) {
+  .\32xl\:divide-double > :not(template) ~ :not(template) {
     border-style: double;
   }
 
-  .\32xl\:divide-none > :not([hidden]) ~ :not([hidden]) {
+  .\32xl\:divide-none > :not(template) ~ :not(template) {
     border-style: none;
   }
 
